@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
 	gem 'sqlite3'
